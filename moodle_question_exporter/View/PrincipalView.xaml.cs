@@ -10,15 +10,14 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace moodle_question_exporter {
+namespace moodle_question_exporter.View {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica interna para PrincipalView.xaml
     /// </summary>
-    public partial class MainWindow : Window {
-        public MainWindow() {
+    public partial class PrincipalView : Window {
+        public PrincipalView() {
             InitializeComponent();
         }
     }

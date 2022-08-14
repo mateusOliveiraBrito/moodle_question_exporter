@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using moodle_question_exporter.View;
 using System.Windows;
 
 namespace moodle_question_exporter {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
     public partial class App : Application {
+
+        protected override void OnStartup(StartupEventArgs e) {
+            base.OnStartup(e);
+            PrincipalView window = new PrincipalView();
+            window.Show();
+        }
     }
 }
